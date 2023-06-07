@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrap{
+    width: 100%;
+    background-color: #D6F5F4;
+    padding-bottom: 20px;
+}
+.flexit{
+    display: flex;
+}
+.top{
+    background-color: #D6F5F4;
+    padding: 30px 180px;
+    border-top: 10px solid #FFFEFE;
+}
+
+.top h2{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.top .testimony{
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.top .card{
+    width: 30%;
+    padding: 24px;
+    background-color: #FFFEFE;
+    border-radius: 4px;
+    height: auto;
+}
+.card .profile{
+    justify-content: space-between;
+}
+.card .profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.card .profileAddress{
+    padding: 8px;
+}
+.card .profile .logo{
+    padding: 8px 0;
+    color: #01ACEE;
+}
+.card .profileAddress .profileName{
+    color: #141514;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card .profileAddress .profileHandle{
+    color: #8E8E8F;
+    font-size: 12px;
+    
+}
+.card .cardBody{
+    padding: 16px 0;
+    color: #8E8E8F;
+    font-size: 16px;
+}
+.card .footer{
+    justify-content: space-between;
+    padding: 10px 0;
+    color: #8E8E8F;
+    font-size: 16px;
+}
+.card .footer .postLikes i{
+    color: #E74342;
+    padding: 0 4px;
+}
+.bottom{
+    background-color: #FFFEFE;
+    padding: 80px 280px 40px 280px ;
+}
+.bottom > h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.bottom .expo{
+    text-align: center;
+    color: #8E8E8F;
+    padding-bottom: 40px;
+}
+.bottom .pricePlan{
+    margin: 0 auto;
+    width: 420px;
+    padding: 30px 40px;
+    border: 1px solid #FEC583;
+    background-color: #FBF9F2;
+    border-radius: 8px;
+}
+.pricePlan .rate{
+    color: #787878;
+    font-size: 18px;
+}
+.pricePlan .freq .cost{
+    font-size: 28px;
+    font-weight: bold;
+    color: #010001;
+}
+.pricePlan .freq .time{
+    font-size: 16px;
+    color: #787878;
+}
+.pricePlan .freq{
+    padding: 10px 0 14px 0;
+}
+.pricePlan .benefits{
+    padding: 10px 4px;
+}
+.pricePlan .benefits li{
+    padding: 6px 0;
+    color: #787878;
+}
+.pricePlan .benefits li i{
+    color: #6DDEBE;
+}
+.pricePlan .benefits li p{
+    padding-left: 8px;
+}
+.pricePlan .kickOff{
+    text-align: center;
+    color: #FFFEFE;
+    background-color: #01ACEE;
+    text-decoration: none;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
